@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial scale=1.0">
+<link rel="stylesheet" href styles="styles/main.css">
+<head>
+<title>Hannah's Daily Journal</title>
+</head>
+<body>
+    <h2>Daily Journal</h2>
+    <main id="container">
+        <form class="entryForm">
+            <fieldset>
+                <label for="entryDate">Date</label>
+                <input type="date" name="entryDate" class="entryForm__date">
+            </fieldset>
+            <fieldset>
+                <label for="conceptsCovered">Concepts covered</label>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <label for="journalEntry">Journal entry</label>
+                <input type="text">
+            </fieldset>
+            <fieldset>
+                <label for="mood">Mood</label>
+                <input type="text">
+            </fieldset>
+        </form>
+        <article id="entries"></article>
+    </main>
+</body>
