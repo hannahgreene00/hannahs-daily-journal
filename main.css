@@ -1,4 +1,16 @@
 #container {
     display: flex;
     flex-direction: column;
+    background-color: aliceblue;
+}
+
+body {
+    background-image: url("trippy.jpg");
+    background-color: black;
+    color: red;
+
+}
+
+.header {
+    font-weight: 200;
 }
